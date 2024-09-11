@@ -66,15 +66,15 @@ choco install git-fork -y
 
 # 3d development
 Write-Host "====> Installing 3D development softwares..."
-choco install blender -y #version 3.3.1
-choco install epicgameslauncher -y
+#choco install blender -y #version 3.3.1
+#choco install epicgameslauncher -y
 #choco install freecad -y
-choco install steam -y
-choco install unity-hub -y
+#choco install steam -y
+#choco install unity-hub -y
 #choco install unity -y
-choco install renderdoc -y
-choco install InkScape -y
-choco install cuda -y
+#choco install renderdoc -y
+#choco install InkScape -y
+#choco install cuda -y
 # choco install vulkan-sdk -y
 
 # ides
@@ -82,8 +82,8 @@ Write-Host "====> Installing IDEs..."
 choco install vscode -y
 choco install visualstudio2019buildtools -y
 #choco install visualstudio2019community -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Component.Incredibuild --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
-# choco install visualstudio2019professional -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
-choco install visualstudio2022professional -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
+# choco install visualstudio2019enterprise -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
+choco install visualstudio2022enterprise -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
 
 # ide extensions
 Write-Host "====> Installing IDE extensions..."
@@ -92,6 +92,7 @@ choco install visualassist -y
 
 # additional softwares
 Write-Host "====> Installing additional softwares..."
+choco install linqpad -y
 choco install adobedigitaleditions -y
 #choco install adobereader -y
 choco install anydesk -y
@@ -119,17 +120,17 @@ choco install pdftk -y
 choco install postman -y
 choco install powertoys -y
 choco install protonvpn -y
-choco install slack -y
+# choco install slack -y
 choco install screenpresso -y
 # choco install sourcetrail -y
-choco install spotify -y
+# choco install spotify -y
 choco install sumatrapdf -y
 choco install treesizefree -y
 choco install vlc -y
-choco install vmware-workstation-player -y
+# choco install vmware-workstation-player -y
 choco install vscode-drawio -y
 choco install wireshark -y
-choco install zoom -y
+# choco install zoom -y
 
 # video/photo editing softwares
 Write-Host "====> Installing video/photo editing softwares..."
